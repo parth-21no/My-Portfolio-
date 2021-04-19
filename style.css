@@ -1,0 +1,47 @@
+.Game{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.Intro{
+    background-color: rgb(37, 44, 9); 
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Intro{
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Certificates{
+    background-color: lightskyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p,h2,h3{
+    text-align: center;
+}
